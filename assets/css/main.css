@@ -4852,7 +4852,7 @@ a img {
 
 }
 
-.header .site-title {
+#user-detail-name {
     font-size: 35px;
     display: block;
     line-height: 1;
@@ -4861,13 +4861,13 @@ a img {
 }
 
 @media only screen and (min-width:550px) {
-    .header .site-title {
+    #user-detail-name {
         margin: 0;
         font-size: 100px
     }
 }
 
-.header .site-description {
+ #user-detail-intro {
     font-size: 20px;
     display: block;
     line-height: 1;
@@ -4876,7 +4876,7 @@ a img {
 }
 
 @media only screen and (min-width:550px) {
-    .header .site-description {
+    #user-detail-intro {
         font-size: 40px
     }
 }
