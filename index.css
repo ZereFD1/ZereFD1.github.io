@@ -36,7 +36,7 @@ nav {
 nav ul li {
   display: inline-block;
   list-style: noen;
-  margin: 10px;
+  margin: 15px;
   position: relative;
   color: white;
 }
@@ -44,6 +44,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   color: white;
+  padding-right: 40;
 }
 nav ul li a::after {
   content: "";
@@ -239,8 +240,6 @@ nav .fas {
   width: 250px;
   border-radius: 50%;
   height: 250px;
-
-  /* margin-left: -100px; */
   border: 2px solid red;
   margin-top: 10px;
 }
@@ -248,19 +247,13 @@ nav .fas {
   width: 80%;
   height: auto;
   margin: auto;
-  /* border: 1px solid red; */
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-/* .right{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    border: 1px solid red;
-  } */
 .right p {
   font-size: 20px;
 
-  margin-top: 20px;
+  /* margin-top: 1000px; */
   text-align: center;
   color: white;
 }
@@ -269,12 +262,12 @@ nav .fas {
 .skill {
   height: auto;
   width: 80%;
-  /* border: 1px solid red; */
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding-bottom: 50px;
+  padding-left: 250px;
 }
 #skills h1 {
   color: white;
@@ -294,23 +287,23 @@ nav .fas {
   background-color: white;
   border-radius: 10px;
 }
-.skills-card :hover {
+/* .skills-card :hover {
   background-color: aqua;
   cursor: pointer;
-}
+} */
 .skills-card img {
   width: 100%;
 
   border-radius: 10px 10px 0px 0px;
   margin: auto;
 }
-.skills-card img:hover {
+/* .skills-card img:hover {
   background-color: aqua;
-}
+} */
 .skills-card-name {
   font-size: 20px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 /* ........................................Project Section .................................. */
@@ -603,8 +596,9 @@ nav .fas {
 @media screen and (min-width: 820px) and (max-width: 1180px) {
   .skill {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding-right: 500px;
   }
 
   .github {
@@ -667,7 +661,7 @@ nav .fas {
 @media all and (max-width: 600px) {
   .skill {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .project-card {
     width: 85%;
